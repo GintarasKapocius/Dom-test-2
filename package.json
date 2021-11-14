@@ -1,0 +1,23 @@
+{
+  "name": "dom-test-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-unix": "node_modules/.bin/json-server --watch database.json",
+    "start-win": "node_modules\\.bin\\json-server --watch database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GintarasKapocius/Dom-test-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GintarasKapocius/Dom-test-2/issues"
+  },
+  "homepage": "https://github.com/GintarasKapocius/Dom-test-2#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
