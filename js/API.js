@@ -8,7 +8,7 @@ class API {
       .catch(failure)
   }
 
-  static deleteCar = (id, success, failure) => {
+  static deleteToys = (id, success, failure) => {
     fetch(`${baseUrl}/toys/${id}`, { method: 'DELETE' })
       .then((res) => (res.ok ? success() : failure(res.statusText)))
       .catch(failure)
