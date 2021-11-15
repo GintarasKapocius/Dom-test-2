@@ -1,8 +1,10 @@
 class ToyCardComponent {
+  static USD_EUR = 1.15;
   constructor(props) {
     this.props = props;
     this.init();
   }
+
   formatDiscount = (content) => {
     return content
       ? `<span class="text-danger small d-block">${content}</span>`
